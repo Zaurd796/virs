@@ -1,0 +1,22 @@
+.catalog-list__header {
+  margin-bottom: 4.2vh;
+}
+
+.catalog-list__main-title {
+  margin-top: 0;
+  margin-bottom: 3.7vh;
+}
+
+.catalog-list__info {
+  margin-bottom: 6.7vh;
+  padding: 2.3vh 2.5vw 7.3vh 2.4vw;
+  background-color: var(--color-alabaster);
+}
+
+.catalog-list__info-text {
+  margin: 0;
+}
+
+.catalog-list__info-text:not(:last-child) {
+  margin-bottom: 1.7vh;
+}

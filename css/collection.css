@@ -1,0 +1,151 @@
+.collection {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+@media(max-width: 1355px) {
+  .collection {
+    flex-direction: column;
+  }
+}
+
+.collection__first-col {
+  padding-top: 3.7vh;
+  margin-right: 1.3vw;
+}
+
+@media(max-width: 1355px) {
+  .collection__first-col {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    padding-top: 0;
+    margin-bottom: 2vh;
+  }
+}
+
+@media(max-width: 829px) {
+  .collection__first-col {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.collection__features-list {
+  margin-bottom: 5.1vh;
+}
+
+@media(max-width: 1355px) {
+  .collection__features-list {
+    margin-bottom: 0;
+    margin-right: 2vw;
+  }
+}
+
+@media(max-width: 829px) {
+  .collection__features-list {
+    margin-right: 0;
+    margin-bottom: 2vh;
+  }
+}
+
+.collection__middle-col {
+  margin-right: 4.7vw;
+}
+
+@media(max-width: 1355px) {
+  .collection__middle-col {
+    margin-right: 0;
+  }
+}
+
+.collection__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+@media(max-width: 1689px) {
+  .collection__items {
+    justify-content: center;
+  }
+}
+
+.collection__item {
+  margin-bottom: 3.6vh;
+}
+
+.collection__item:not(:nth-child(3n)) {
+  margin-right: 2.5vw;
+}
+
+.collection__item:nth-child(4) {
+  margin-right: 5vw;
+}
+
+@media(max-width: 1689px) {
+  .collection__item:nth-child(3n) {
+    margin-right: 2.5vw;
+  }
+}
+
+@media(max-width: 829px) {
+  .collection .collection__item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.collection__item-img {
+  margin-bottom: 2.7vh;
+}
+
+@media(max-width: 829px) {
+  .collection__item-img {
+    width: 100%;
+  }
+}
+
+.collection__item-desc {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media(max-width: 829px) {
+  .collection__item-desc {
+    text-align: center;
+  }
+}
+
+.collection__last-col {
+  padding-top: 5.6vh;
+}
+
+@media(max-width: 1355px) {
+  .collection__last-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+}
+
+.collection__play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--color-hippiPink);
+  border: 1px solid var(--color-hippiPink);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+}

@@ -1,0 +1,5 @@
+.icon-phone:before {
+  font-size: 30px;
+  color: var(--color-white);
+  transform: rotate(-90deg);
+}

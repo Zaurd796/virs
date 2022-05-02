@@ -1,0 +1,154 @@
+.features {
+  display: flex;
+  margin-bottom: 2vh;
+}
+
+@media (max-width: 1670px) {
+  .features {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1115px) {
+  .features {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.features__list {
+  margin-right: 1.25vw;
+}
+
+@media (max-width: 723px) {
+  .features__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.features__prices {
+  margin-right: 15vw;
+}
+
+@media (max-width: 1470px) {
+  .features__prices {
+    margin-right: 10vw;
+  }
+}
+
+@media (max-width: 1130px) {
+  .features__prices {
+    margin-right: 5vw;
+  }
+}
+
+@media (max-width: 1115px) {
+  .features__prices {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 723px) {
+  .features__prices {
+    margin-top: 2vh;
+  }
+}
+
+.features__demo {
+  display: flex;
+  padding: 13px;
+
+  background: var(--color-roseWhite);
+  border: 10px solid rgba(181, 78, 88, 0.1);
+}
+
+@media (max-width: 1115px) {
+  .features__demo {
+    width: 100%;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+}
+
+.features__demo-img {
+  margin-right: 1.5vw;
+}
+
+@media (max-width: 1470px) {
+  .features__demo-img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features__demo-img {
+    display: none;
+  }
+}
+
+.features__demo-text {
+  margin-top: 1.3vh;
+  margin-bottom: 1vh;
+
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-emperor);
+}
+
+@media (max-width: 1470px) {
+  .features__demo-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features__demo-text {
+    text-align: center;
+  }
+}
+
+.features__demo-btn {
+  display: flex;
+  align-items: center;
+  margin-left: 6.4vw;
+  padding: 10px 15px;
+
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-white);
+
+  border: 0;
+  background: var(--color-hippiPink);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+
+}
+
+@media (max-width: 600px) {
+  .features__demo-btn {
+    margin-left: 0;
+  }
+}
+
+.features__demo-btn-icon {
+  margin-right: 0.8vw;
+}
+
+@media (max-width: 600px) {
+  .features__demo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

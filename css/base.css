@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Proxima Nova";
+  font-display: swap;
+  src: url("../fonts/proximaNovaLight.woff2") format("woff2"),
+    url("../fonts/proximaNovaLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lexend";
+  font-display: swap;
+  src: url("../fonts/lexendLight.woff2") format("woff2"),
+    url("../fonts/lexendLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+:root {
+  --color-white: #fff;
+  --color-silver: #CCCCCC;
+  --color-hippiPink: #B54E58;
+  --color-mexicanRed: #A3222E;
+  --color-mineShaft: #333333;
+  --color-tundora: #444444;
+  --color-boulder: #777777;
+  --color-roseWhite: #FFF9F9;
+  --color-emperor: #505050;
+  --color-alabaster: #F8F8F8;
+  --color-black: #000000;
+
+  --font-proximaNova: "Proxima Nova", "Arial", sans-serif;
+  --font-lexend: "Lexend", "Arial", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: var(--font-proximaNova);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--color-tundora);
+}
+
+.position {
+  position: relative;
+}
+
+footer {
+  margin-top: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1748px;
+  margin: 0 auto;
+  padding: 0 10px;
+}

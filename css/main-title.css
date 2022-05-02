@@ -1,0 +1,28 @@
+.main-title {
+  font-family: var(--font-lexend);
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-mineShaft);
+}
+
+@media (max-width: 720px) {
+  .main-title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 580px) {
+  .main-title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 440px) {
+  .main-title {
+    font-size: 25px;
+  }
+}
